@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+    font-size: 1.15em;
+}
+
+body {
+    background-color: #111;
+    color: aliceblue;
+    /* margin: 0px; */
+}
+
+button.tab {
+    /* background-color: #111; */
+    color: aliceblue;
+}
+
+.tab-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100vw;
+}
+
+button {
+    background-color: #222;
+}
+
+.tab-header button {
+    flex: 1;
+    min-width: 250px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px 20px;
+
+}
+
+.tab-content {
+    display: none;
+    animation: fadeEffect 0.5s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.active {
+    background-color: #777;
+}
