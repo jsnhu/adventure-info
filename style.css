@@ -6,7 +6,7 @@
 body {
     background-color: #111;
     color: aliceblue;
-    /* margin: 0px; */
+    margin: 0px;
 }
 
 .tab-header {
@@ -35,7 +35,7 @@ button {
     display: none;
     animation: fadeEffect 0.5s;
     border: 2px ridge rgba(58, 58, 58, 0.584);
-    margin: 20px 0px;
+    margin: 10px 5px;
     padding: 20px;
     background-color: #252525;
 }
@@ -46,6 +46,7 @@ button {
 }
 
 .active {
-    background-color: #88ff88;
+    /* background-color: #88ff88; */
+    background: linear-gradient(to right,  #38ef7d, #11998e,);
     color: black;
 }

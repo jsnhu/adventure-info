@@ -7,6 +7,7 @@ buttons.forEach((button) => {
         addActiveTabClass(event.target);
     });
 });
+document.querySelector('#tab-1-button').click();
 
 
 // *****************************
