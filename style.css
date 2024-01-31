@@ -40,7 +40,7 @@ h3 {
     border: 2px ridge rgba(58, 58, 58, 0.584);
     margin: 20px 5px;
     padding: 5px 0px;
-    background-color: #252525;
+    background-color: #0e0e0e;
 }
 
 @keyframes fadeEffect {
@@ -69,4 +69,26 @@ h3 {
 
 button.menu {
     flex: 1;
+}
+
+.header-button {
+    background-color: #1c1c1c;
+    color: aliceblue;
+    border: 0;
+    border-bottom: 1px double #0a6a625a;
+    padding: 5px;
+}
+
+.section-menu {
+    margin-bottom: 10px;
+}
+
+.menu {
+    background-color: #000;
+    color: aliceblue;
+}
+
+.section-text {
+    box-shadow: inset 0px 2px 2px #119988;
+    /* box-shadow:         inset 0px 4px 3px rgba(255, 0, 0, 0.75); */
 }
