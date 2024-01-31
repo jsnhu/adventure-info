@@ -1,12 +1,17 @@
 * {
     font-family: sans-serif;
-    font-size: 1.15em;
+    font-size: 1.3rem;
 }
 
 body {
     background-color: #111;
     color: aliceblue;
     margin: 0px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
 }
 
 .tab-header {
@@ -20,6 +25,8 @@ button {
     background-color: #222;
     color: aliceblue;
     text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
 
 }
 
@@ -35,8 +42,8 @@ button {
     display: none;
     animation: fadeEffect 0.5s;
     border: 2px ridge rgba(58, 58, 58, 0.584);
-    margin: 10px 5px;
-    padding: 20px;
+    margin: 20px 5px;
+    padding: 5px 0px;
     background-color: #252525;
 }
 
@@ -50,3 +57,4 @@ button {
     background: linear-gradient(to right,  #38ef7d, #11998e);
     color: black;
 }
+
