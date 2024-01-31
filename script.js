@@ -28,6 +28,11 @@ hideAllButton.addEventListener('click', () => {
     toggleAllSections(hideAllButton, "hide");
 })
 
+// *****************************
+// functions
+// 
+// 
+
 function toggleAllSections(showAllButton, action) {
     const sectionDiv = showAllButton.closest('.section');
 
@@ -46,10 +51,6 @@ function toggleAllSections(showAllButton, action) {
 
 
 
-// *****************************
-// functions
-// 
-// 
 function addActiveTabClass(button) {
     button.classList.add("active");
 }
