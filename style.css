@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Ubuntu', 'serif', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 body {
@@ -11,9 +11,14 @@ body {
     margin: 0px;
 }
 
-h3 {
+h3, h4, h5 {
     margin: 0;
     padding: 0;
+}
+
+h5 {
+    font-weight: 400;
+    border-top: 4px double grey;
 }
 
 .tab-header {
@@ -104,4 +109,19 @@ button.menu {
 
 #show-all {
     border-right: 2px solid rgb(107, 107, 107);
+}
+
+ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+    font-weight: lighter;
+}
+
+::marker {
+    color: #38ef7d;
+}
+
+#list-checkbox {
+    accent-color: #38ef7d;
 }
