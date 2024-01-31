@@ -34,7 +34,6 @@ button {
 .tab-content {
     display: none;
     animation: fadeEffect 0.5s;
-    /* border-radius: 10px; */
     border: 2px ridge rgba(58, 58, 58, 0.584);
     margin: 20px 0px;
     padding: 20px;
