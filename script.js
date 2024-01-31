@@ -12,10 +12,38 @@ document.querySelector('#tab-1-button').click();
 const headerButtons = document.querySelectorAll('.header-button');
 
 headerButtons.forEach((headerButton) => {
-    headerButton.addEventListener("click", (event) => {
-        toggleSectionText(event, headerButton);
+    headerButton.addEventListener("click", () => {
+        toggleSectionText(headerButton);
     });
 });
+
+const showAllButton = document.querySelector('#show-all');
+const hideAllButton = document.querySelector('#hide-all');
+
+showAllButton.addEventListener('click', () => {
+    toggleAllSections(showAllButton, "show");
+})
+
+hideAllButton.addEventListener('click', () => {
+    toggleAllSections(hideAllButton, "hide");
+})
+
+function toggleAllSections(showAllButton, action) {
+    const sectionDiv = showAllButton.closest('.section');
+
+    const sectionTextDivs = sectionDiv.querySelectorAll('.section-text');
+
+    if (action == "show") {
+        sectionTextDivs.forEach((sectionTextDiv) => {
+            sectionTextDiv.classList.remove('hidden');
+        });
+    } else {
+        sectionTextDivs.forEach((sectionTextDiv) => {
+            sectionTextDiv.classList.add('hidden');
+        });
+    }
+}
+
 
 
 // *****************************
@@ -51,7 +79,7 @@ function showTabContent(tabContent) {
     tabContent.style.display = "block";
 }
 
-function toggleSectionText(event, headerButton) {
+function toggleSectionText(headerButton) {
     const sectionTextId = headerButton.id.replace("-header","");
     const sectionText = document.querySelector(`#${sectionTextId}`);
     sectionText.classList.toggle('hidden');    
