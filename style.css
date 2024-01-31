@@ -47,6 +47,6 @@ button {
 
 .active {
     /* background-color: #88ff88; */
-    background: linear-gradient(to right,  #38ef7d, #11998e,);
+    background: linear-gradient(to right,  #38ef7d, #11998e);
     color: black;
 }
