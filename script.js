@@ -4,7 +4,7 @@ buttons.forEach((button) => {
     button.addEventListener('click', (event) => {
         showTab(button.id);
         removeActiveTabClassFromButtons(buttons);
-        addActiveTabClass(event.target);
+        addActiveTabClass(button);
     });
 });
 document.querySelector('#tab-1-button').click();
@@ -28,7 +28,8 @@ hideAllButton.addEventListener('click', () => {
     toggleAllSections(hideAllButton, "hide");
 })
 
-// hideAllButton.click();
+hideAllButton.click();
+
 // *****************************
 // functions
 // 
