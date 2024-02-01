@@ -28,7 +28,7 @@ hideAllButton.addEventListener('click', () => {
     toggleAllSections(hideAllButton, "hide");
 })
 
-hideAllButton.click();
+// hideAllButton.click();
 // *****************************
 // functions
 // 

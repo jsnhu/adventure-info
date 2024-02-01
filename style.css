@@ -17,8 +17,9 @@ h3, h4, h5 {
 }
 
 h5 {
-    font-weight: 400;
-    border-top: 4px double grey;
+    font-weight: 500;
+    color: #38ef7d;
+    border-top: 1px solid grey;
 }
 
 .tab-header {
@@ -124,4 +125,8 @@ ul {
 
 #list-checkbox {
     accent-color: #38ef7d;
+}
+
+.section-text em {
+    color: rgba(240, 248, 255, 0.609);
 }
