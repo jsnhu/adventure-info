@@ -119,6 +119,10 @@ ul {
     font-weight: lighter;
 }
 
+li {
+    padding: 5px 0px;
+}
+
 ::marker {
     color: #38ef7d;
 }
